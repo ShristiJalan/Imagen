@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Title from './comps/Title';
 import UploadForm from './comps/UploadForm';
+import ImageGrid from './comps/imageGrid';
 
 function App() {
   return (
     <div className="App">
       <Title/>
       <UploadForm />
+      <ImageGrid />
     </div>
   );
 }
